@@ -10,10 +10,8 @@ WHERE  c.NAME = 'George'
 --2. Return the names of all salespeople that do not have any order with George
 SELECT NAME
 FROM   salesperson
-WHERE  id NOT IN (SELECT DISTINCT s.id
-                  FROM   salesperson s
-                         INNER JOIN orders o
-                                 ON s.id = o.salespersonid
+WHERE  id NOT IN (SELECT DISTINCT o.salespersonid
+                  FROM   orders o
                          INNER JOIN customer c
                                  ON c.id = o.customerid
                   WHERE  c.NAME = 'George')

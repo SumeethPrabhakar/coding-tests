@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Jasmine Spec Runner</title>
+    <link rel="stylesheet" type="text/css" href="css/jasmine.css">
+    <script src="scripts/lib/jasmine.js"></script>
+    <script src="scripts/lib/jasmine-html.js"></script>
+    <script src="scripts/lib/jquery-3.1.0.min.js"></script>
+    <script src="scripts/lib/angular.min.js"></script>
+    <script src="scripts/lib/angular-mocks.js"></script>
+    <script src="scripts/src/angular/app.module.js"></script>
+    <script src="scripts/src/angular/contact/contact.module.js"></script>
+    <script src="scripts/src/js/stringExtensions.js"></script>
+    <script src="scripts/src/js/stringExtensions.test.js"></script>
+    <script src="scripts/src/angular/contact/contactRepository.js"></script>
+    <script src="scripts/src/angular/contact/contactController.js"></script>
+    <script src="scripts/src/angular/contact/contactService.js"></script>
+    <script src="scripts/src/angular/tests/contactController.test.js"></script>
+
+    <script type="text/javascript">
+        //https://github.com/detro/jasmine-jsreporter/blob/master/examples/spec-runner/spec-runner.html
+        (function () {
+            var jasmineEnv = jasmine.getEnv();
+            // Register reporters
+            jasmineEnv.addReporter(new jasmine.TrivialReporter());              //< for html
+            jasmineEnv.updateInterval = 1000;
+            // Launch test on "window.body.onload"
+            if (window.attachEvent) {
+                window.attachEvent("onload", function () {     //< IE
+                    setTimeout(function () {
+                        jasmine.getEnv().execute();
+                    }, 50);
+                });
+            } else {
+                window.addEventListener("load", function () {  //< everything else
+                    setTimeout(function () {
+                        jasmine.getEnv().execute();
+                    }, 50);
+                }, false);
+            }
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>

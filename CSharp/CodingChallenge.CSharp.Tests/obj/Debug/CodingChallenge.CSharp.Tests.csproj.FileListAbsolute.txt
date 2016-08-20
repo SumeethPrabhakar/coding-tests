@@ -1,0 +1,8 @@
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\bin\Debug\CodingChallenge.CSharp.Tests.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\bin\Debug\CodingChallenge.CSharp.Tests.pdb
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\bin\Debug\CodingChallenge.CSharp.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\bin\Debug\CodingChallenge.CSharp.pdb
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\obj\Debug\CodingChallenge.CSharp.Tests.csprojResolveAssemblyReference.cache
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\obj\Debug\CodingChallenge.CSharp.Tests.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp.Tests\obj\Debug\CodingChallenge.CSharp.Tests.pdb

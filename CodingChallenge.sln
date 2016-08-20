@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.CSharp", "CSharp\CodingChallenge.CSharp\CodingChallenge.CSharp.csproj", "{1EF2417C-776F-41B8-9ADA-93C91A2DA56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.CSharp.Tests", "CSharp\CodingChallenge.CSharp.Tests\CodingChallenge.CSharp.Tests.csproj", "{7B5B9F2B-01D0-49DF-8126-34C2024B48FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.Javascript", "JS\CodingChallenge.Angular\CodingChallenge.Javascript.csproj", "{88700C3B-F488-442D-8AEF-3E49CC17A17C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EF2417C-776F-41B8-9ADA-93C91A2DA56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF2417C-776F-41B8-9ADA-93C91A2DA56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF2417C-776F-41B8-9ADA-93C91A2DA56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF2417C-776F-41B8-9ADA-93C91A2DA56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5B9F2B-01D0-49DF-8126-34C2024B48FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5B9F2B-01D0-49DF-8126-34C2024B48FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5B9F2B-01D0-49DF-8126-34C2024B48FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5B9F2B-01D0-49DF-8126-34C2024B48FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88700C3B-F488-442D-8AEF-3E49CC17A17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88700C3B-F488-442D-8AEF-3E49CC17A17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88700C3B-F488-442D-8AEF-3E49CC17A17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88700C3B-F488-442D-8AEF-3E49CC17A17C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

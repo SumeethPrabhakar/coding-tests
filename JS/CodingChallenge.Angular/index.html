@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+</head>
+<body>
+<div ng-controller="contactController">
+    <form>
+        <label>Name</label>
+        <input type="text" name="name" ng-model="newcontact.name" />
+        <label>Mobile</label>
+        <input type="text" name="mobile" ng-model="newcontact.mobile"/>
+        <label>Email</label>
+        <input type="text" name="email" ng-model="newcontact.email"/>
+        <br/>
+        <input type="hidden" ng-model="newcontact.id"/>
+        <input type="button" value="Save" ng-click="saveContact()"/>
+    </form>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="contact in contacts">
+            <td>{{ contact.name }}</td>
+            <td>{{ contact.mobile }}</td>
+            <td>{{ contact.email }}</td>
+            <td>
+                <a href="#" ng-click="edit(contact.id)">edit</a> |
+                <a href="#" ng-click="delete(contact.id)">delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br/>
+    <a href="https://www.elasticgrid.com/index.html">External Link - JQuery Plugin Test</a>
+</div>
+    <!--this needs to be bundled to one - Just avoiding to download plugins which increase my demo folder size-->
+    <script src="scripts/lib/angular.min.js"></script>
+    <script src="scripts/lib/jquery-3.1.0.min.js"></script>
+    <script src="scripts/src/angular/app.module.js"></script>
+    <script src="scripts/src/angular/contact/contact.module.js"></script>
+    <script src="scripts/src/angular/contact/contactRepository.js"></script>
+    <script src="scripts/src/angular/contact/contactController.js"></script>
+    <script src="scripts/src/jquery/jqueryPlugins.js"></script>
+    <script src="scripts/src/angular/contact/contactService.js"></script>
+<script>
+    //call JqueryPlugin
+    $("a").openInNewWindow();
+</script>
+
+</body>
+</html>

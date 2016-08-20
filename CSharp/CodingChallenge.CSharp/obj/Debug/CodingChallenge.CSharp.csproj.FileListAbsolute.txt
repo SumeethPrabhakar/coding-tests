@@ -1,0 +1,5 @@
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp\bin\Debug\CodingChallenge.CSharp.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp\bin\Debug\CodingChallenge.CSharp.pdb
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp\obj\Debug\CodingChallenge.CSharp.dll
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp\obj\Debug\CodingChallenge.CSharp.pdb
+D:\GitHub\elasticgrid\CodingChallenge\CSharp\CodingChallenge.CSharp\obj\Debug\CodingChallenge.CSharp.csprojResolveAssemblyReference.cache
